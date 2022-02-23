@@ -23,7 +23,7 @@
 * String numérica: "13", "5.4", "-20"...
 * String alfanumérica: "Área 51", "abc&%", "jovem16"...
 
-### Conversão de sstring numérica em número
+### Conversão de string numérica em número
 * Métodos parse
     * Classes associadas (wrapper)
     * Dentro de todas as classes associadas há métodos que podem ser usados, esses são exemplos
@@ -34,8 +34,21 @@
         * parseFloat()
         * parseDouble()
 
+## Pacotes
+https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
+
 ## Classes
 * Estrutura padrão: "nome da classe"."método desejado"();
 * Exemplos:
     * Integer.parseInt()
     * JOptionPane.showMessageDialog()
+
+### Classe JOptionPane
+* showMessageDialog() ==> mostra uma janela com um texto na tela
+* showInputDialog() ==> mostra uma janela com uma caixa de entrada na tela
+
+### Classe Scanner
+* next() ==> lê uma palavra (lê tudo que vem antes de um espaço)
+* nextLine() ==> lê uma frase (lê tudo que vem antes de um enter)
+* nextInt() ==> lê uma STRING NUMÉRICA e converte para int
+* nextDouble() ==> lê uma STRING NUMÉRICA e converte para double
