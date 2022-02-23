@@ -8,6 +8,9 @@ class EntradaGrafica{
 
         // Converte string numérica em número inteiro
         int anoNasc = Integer.parseInt(jp.showInputDialog(null, "Informe seu ano de nascimento: "));
-        jp.showMessageDialog(null, "Você nasceu em " + anoNasc);
+        jp.showMessageDialog(null, "Voce nasceu em " + anoNasc);
+
+        int idade = 2022 - anoNasc;
+        jp.showMessageDialog(null, "Sua idade e " + idade);
     }
 }
