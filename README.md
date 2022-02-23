@@ -22,6 +22,9 @@
 * String literal: "Bom dia", "Olá", "Doutor"...
 * String numérica: "13", "5.4", "-20"...
 * String alfanumérica: "Área 51", "abc&%", "jovem16"...
+* Códigos especiais (usado apenas dentro de aspas "")
+    * \n ==> pula uma linha
+    * \t ==> faz tabulação (parágrafo)
 
 ### Conversão de string numérica em número
 * Métodos parse
