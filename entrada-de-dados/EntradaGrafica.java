@@ -11,6 +11,6 @@ class EntradaGrafica{
         jp.showMessageDialog(null, "Voce nasceu em " + anoNasc);
 
         int idade = 2022 - anoNasc;
-        jp.showMessageDialog(null, "Sua idade e " + idade);
+        jp.showMessageDialog(null, "Sua idade e " + idade + " anos");
     }
 }
