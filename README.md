@@ -6,9 +6,9 @@
 ### Numéricas (tipos primitivos)
 * OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas juntas com a linguagem Java. Cada tipo primitivo tem sua classe associada.
 * Ordem de Precedência
-    1º Parênteses
-    2º Multiplicação e Divisão
-    3º Soma e Subtração
+    * 1º Parênteses
+    * 2º Multiplicação e Divisão
+    * 3º Soma e Subtração
 * Números inteiros
     * byte ==> Byte
     * short ==> Short
