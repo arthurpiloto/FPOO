@@ -6,6 +6,7 @@ class EntradaGrafica{
         // sempre crie um objeto da classe (instância da classe)
         JOptionPane jp = new JOptionPane();
 
-        int anoNasc = jp.showInputDialog(null, "Informe seu ano de nascimento:");
+        int anoNasc = Integer.parseInt(jp.showInputDialog(null, "Informe seu ano de nascimento: "));
+        jp.showMessageDialog(null, "Você nasceu em " + anoNasc);
     }
 }
