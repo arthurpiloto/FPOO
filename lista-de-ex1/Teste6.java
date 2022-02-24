@@ -4,6 +4,6 @@ class Teste6{
 
     double f = graus * 9 / 5 + 160;
 
-    System.out.print(graus + "° Celsisus = " + f + "° Fahrenheit");
+    System.out.print(graus + "° Celsius = " + f + "° Fahrenheit");
   }
 }
