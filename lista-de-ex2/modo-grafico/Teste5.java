@@ -4,7 +4,7 @@ class Teste5{
         JOptionPane jp = new JOptionPane();
 
         double valorDolar = Double.parseDouble(jp.showInputDialog(null, "Informe o valor a ser convertido: "));
-        double cotacaoDolar = Double.parseDouble(jp.showInputDialo(null, "Informe a cotacao do dolar atualmente: "));
+        double cotacaoDolar = Double.parseDouble(jp.showInputDialog(null, "Informe a cotacao do dolar atualmente: "));
 
         double real = valorDolar * cotacaoDolar;
 

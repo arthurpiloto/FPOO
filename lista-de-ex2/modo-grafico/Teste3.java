@@ -10,7 +10,7 @@ class Teste3{
 
         int local = variavel1;
         variavel1 = variavel2;
-        variavel2 = local1;
+        variavel2 = local;
 
         jp.showMessageDialog(null, "Variavel 1 = " + variavel1);
         jp.showMessageDialog(null, "Variavel 2 = " + variavel2);
