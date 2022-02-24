@@ -7,6 +7,6 @@ class Teste6{
 
         double f = graus * 9 / 5 + 160;
 
-        jp.showMessageDialog(null, graus + "° Celsisus = " + f + "° Fahrenheit");
+        jp.showMessageDialog(null, graus + "° Celsius = " + f + "° Fahrenheit");
     }
 }
