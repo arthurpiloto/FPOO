@@ -1,12 +1,12 @@
 import java.util.Scanner;
 class Teste1{
     public static void main(String args[]){
-        Scanner sc = new Scanner();
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("\nDigite um numero: ");
-        String n1 = sc.nextInt();
-        System.out.print("\nDigite outro numero");
-        String n2 = sc.nextInt();
+        int n1 = sc.nextInt();
+        System.out.print("\nDigite outro numero: ");
+        int n2 = sc.nextInt();
 
         double soma = n1 + n2;
         double sub = n1 - n2;

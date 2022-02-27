@@ -1,12 +1,12 @@
 import java.util.Scanner;
 class Teste4{
     public static void main(String args[]){
-        Scanner sc = new Scanner();
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("\nInforme o valor da compra(R$): ");
-        String valor = sc.nextDouble();
+        double valor = sc.nextDouble();
         System.out.print("\nInforme a porcentagem do desconto(%): ");
-        String porcent = sc.next.Double();
+        double porcent = sc.nextDouble();
 
         double desconto = (valor / 100) * porcent;
         double compra = valor - desconto;

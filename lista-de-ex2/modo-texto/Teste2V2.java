@@ -1,12 +1,12 @@
 import java.util.Scanner;
 class Teste2V2{
     public static void main(String args[]){
-        Scanner sc = new Scanner();
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("\nInforme um numero: ");
-        String n1 = sc.nextInt();
+        System.out.print("\nInforme um numero inteiro: ");
+        int n1 = sc.nextInt();
         System.out.print("\nnforme outro numero inteiro: ");
-        String n2 = sc.nextInt();
+        int n2 = sc.nextInt();
 
         double divi = n1 / n2;
 
