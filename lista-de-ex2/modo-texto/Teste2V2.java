@@ -5,7 +5,7 @@ class Teste2V2{
 
         System.out.print("\nInforme um numero inteiro: ");
         int n1 = sc.nextInt();
-        System.out.print("\nnforme outro numero inteiro: ");
+        System.out.print("\nInforme outro numero inteiro: ");
         int n2 = sc.nextInt();
 
         double divi = n1 / n2;
