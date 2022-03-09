@@ -68,9 +68,14 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * "*"
 * "/"
 * "%"
-
 ### Relacionais (comparação)
 * ">" maior que
 * ">=" maior ou igual
 * "<" menor que
 * "<=" menor ou igual
+* "==" igualdade
+* "!=" desigualdade (diferença)
+### Lógicos
+* "&&" E (and)
+* "||" OU (or)
+* "!" NÃO (not)
