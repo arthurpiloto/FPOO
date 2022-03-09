@@ -57,11 +57,8 @@ https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
 
 Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou não, abrir ou fechar, chorar ou rir, será uma escolha para uma determinada ação.
 
-* Simples
-    Há apenas uma resposta. Se for verdadeiro, mostra resposta, senão, não há nenhum retorno.
+* Simples: Há apenas uma resposta. Se for verdadeiro, mostra resposta, senão, não há nenhum retorno.
 
-* Composta
-    Há duas respostas. Verdadeiro ou falso, dependendo da decisão haverá uma resposta diferente.
+* Composta: Há duas respostas. Verdadeiro ou falso, dependendo da decisão haverá uma resposta diferente.
 
-* Aninhada (encadeada)
-    Há várias respostas. Uma decisão pode desencadear várias outras estruturas.
+* Aninhada (encadeada): Há várias respostas. Uma decisão pode desencadear várias outras estruturas.
