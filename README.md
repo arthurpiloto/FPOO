@@ -62,3 +62,17 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * Composta: Há duas respostas. Verdadeiro ou falso, dependendo da decisão haverá uma resposta diferente.
 
 * Aninhada (encadeada): Há várias respostas. Uma decisão pode desencadear várias outras estruturas.
+
+## Operadores
+### Aritméticos (matemáticos)
+* +
+* -
+* *
+* /
+* %
+
+### Relacionais (comparação)
+* ">" maior que
+* ">=" maior ou igual
+* "<" menor que
+* "<=" menor ou igual
