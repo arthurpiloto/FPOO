@@ -65,11 +65,11 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 
 ## Operadores
 ### Aritméticos (matemáticos)
-* +
-* -
-* *
-* /
-* %
+* "+"
+* "-"
+* "*"
+* "/"
+* "%"
 
 ### Relacionais (comparação)
 * ">" maior que
