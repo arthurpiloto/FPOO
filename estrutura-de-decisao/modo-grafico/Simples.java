@@ -6,7 +6,7 @@ class Simples{
         int idade = Integer.parseInt(jp.showInputDialog(null, "Informe sua idade: "));
 
         if (idade > 17){
-            jp.showMessageDialog(null, "Se aliste!")
+            jp.showMessageDialog(null, "Se aliste!");
         }
     }
 }
