@@ -5,24 +5,14 @@ class Aninhada{
 
         int idade = Integer.parseInt(jp.showInputDialog(null, "Informe sua idade: "));
 
-        // if ((idade >= 1) && (idade <= 120)){
-        //     jp.showMessageDialog(null, "Idade Válida!");
-        // } else if (idade > 17){
-        //     jp.showMessageDialog(null, "Se aliste!");
-        // } else {
-        //     jp.showMessageDialog(null, "Idade Inválida!");
-        // }
-
-        // if (idade >= 1){
-        //     jp.showMessageDialog(null, "Se aliste!");
-        // } else if (idade <= 120){
-        //     jp.showMessageDialog(null, "Se aliste!");
-        // } else if (idade > 120){
-        //     jp.showMessageDialog(null, "Idade Inválida!");
-        // } else if (idade < 1){
-        //     jp.showMessageDialog(null, "Idade Inválida!");
-        // } else{
-        //     jp.showMessageDialog(null, "Insira a idade novamente!");
-        // }
+        if(idade >= 1 && idade <= 120) {
+            if(idade >= 18) {
+                jp.showMessageDialog(null, "Maior de idade!");
+            }else {
+                jp.showMessageDialog(null, "Menor de idade!");
+            }
+        }else {
+            jp.showMessageDialog(null, "Idade invalida!");
+        }
     }
 }
