@@ -61,6 +61,9 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * Composta: Há duas respostas. Verdadeiro ou falso, dependendo da decisão haverá uma resposta diferente.
 * Aninhada (encadeada): Há várias respostas. Uma decisão pode desencadear várias outras estruturas.
 
+* Bloco do if{}  ==> Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
+* Bloco do else{} ==> Todas as intruções que devem ser executadas caso o teste lógico seja falso.
+
 ## Operadores
 ### Aritméticos (matemáticos)
 * "+"
