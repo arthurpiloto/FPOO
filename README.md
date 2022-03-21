@@ -38,6 +38,8 @@
 ## Pacotes
 https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
 
+* Toda classe que está no pacote ``` java.lang ``` são disponíveis por padrão.
+
 ## Classes
 * Estrutura padrão: "nome da classe"."método desejado"();
 * Exemplos:
