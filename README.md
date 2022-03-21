@@ -1,5 +1,7 @@
 # Fpoo (Fundamentos de Programação Orientado a Objetos)
 
+* Clean code ==> código limpo, técnica levada ao pé da letra em Java.
+
 ## Variáveis
 * Variáveis não podem começar com números ou caracteres especiais, não podem ter acentos e espaços.
 * Em Java, para declarar uma variável ou qualquer coisa que seja composta, é usado o formato Camel Case. Ex: TrocaDeVariavel.
