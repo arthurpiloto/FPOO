@@ -15,19 +15,19 @@ class Teste8{
         if(imc < 17){
             System.out.print("\nMuito abaixo do peso");
         }
-        if(imc >= 17 && imc < 18.49){
+        if(imc >= 17 && imc < 18.5){
             System.out.print("\nAbaixo do peso");
         }
-        if(imc >= 18.5 && imc < 24.99){
+        if(imc >= 18.5 && imc < 25){
             System.out.print("\nPeso normal");
         }
-        if(imc >= 25 && imc < 29.99){
+        if(imc >= 25 && imc < 30){
             System.out.print("\nAcima do peso");
         }
-        if(imc >= 30 && imc < 34.99){
+        if(imc >= 30 && imc < 35){
             System.out.print("\nObesidade I");
         }
-        if(imc >= 35 && imc < 39.99){
+        if(imc >= 35 && imc < 40){
             System.out.print("\nObesidade II (severa)");
         }
         if(imc >= 40){
