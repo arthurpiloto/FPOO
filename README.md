@@ -111,8 +111,15 @@ Sintaxe padrão <strong>obrigatória<strong>:
 
 * A inicialização determina onde se iniciará o laço.
 * O teste determina o fim do laço.
-* A atualização
-    awdawdjawdjawd
+* A atualização determina o passo do laço.
+
+Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a cada passo, pele 3.
+
+    for (int i=1 ; i<=13 ; i+3){
+        System.out.print(i);
+    }
+
+
 ---
 * ` while `
 
