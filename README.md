@@ -1,15 +1,12 @@
 # Fpoo (Fundamentos de Programação Orientado a Objetos)
-
+* https://replit.com/ ==> plataforma de programação em navegadores.
 * Clean code ==> código limpo, técnica levada ao pé da letra em Java.
 
 ## Variáveis
 * Variáveis não podem começar com números ou caracteres especiais, não podem ter acentos e espaços.
 * Em Java, para declarar uma variável ou qualquer coisa que seja composta, é usado o formato Camel Case. Ex: TrocaDeVariavel.
 
-Variável é um espaço reservado (alocado) dentro da memória RAM para gravar uma informação de um tipo preestabelecido.
-
-Há vários tipos de variáveis em Java:
-
+Variável é um espaço reservado (alocado) dentro da memória RAM para gravar uma informação de um tipo preestabelecido. Há vários tipos de variáveis em Java:
 ### Numéricos (tipos primitivos)
 OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas juntas com a linguagem Java. Cada tipo primitivo tem sua classe associada.
 * Ordem de Precedência
@@ -31,8 +28,7 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` float ` ==> 32 bits
 * ` double ` ==> 64 bits
 ---
-* Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas abarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
-
+* Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas embarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
 ### String
 * String literal: "Bom dia", "Olá", "Doutor"...
 * String numérica: "13", "5.4", "-20"...
@@ -40,16 +36,25 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * Códigos especiais (usado apenas dentro de aspas "")
     * \n ==> pula uma linha
     * \t ==> faz tabulação (parágrafo)
-### Conversão de string numérica em número
-* Métodos parse
-    * Classes associadas (wrapper)
-    * Dentro de todas as classes associadas há métodos que podem ser usados, esses são exemplos
-        * parseByte()
-        * parseShort()
-        * parseInt()
-        * parseLong()
-        * parseFloat()
-        * parseDouble()
+
+## Operadores
+### Aritméticos (matemáticos)
+* ` + ` ==> soma
+* ` - ` ==> subtração
+* ` * ` ==> multiplicação
+* ` / ` ==> divisão
+* ` % ` ==> módulo
+### Relacionais (comparação)
+* ` > ` ==> maior que
+* ` >= ` ==> maior ou igual
+* ` < ` ==> menor que
+* ` <= ` ==> menor ou igual
+* ` == ` ==> igualdade
+* ` != ` ==> desigualdade (diferença)
+### Lógicos
+* ` && ` ==> E (and)
+* ` || ` ==> OU (or)
+* ` ! ` ==> NÃO (not)
 
 ## Pacotes
 https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
@@ -57,18 +62,27 @@ https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
 * Toda classe que está no pacote ``` java.lang ``` são disponíveis por padrão.
 
 ## Classes
-* Estrutura padrão: "nome da classe"."método desejado"();
+Estrutura padrão: 
+
+    nome da classe.método desejado();
+
 * Exemplos:
-    * Integer.parseInt()
-    * JOptionPane.showMessageDialog()
+    * ` Integer.parseInt() `
+    * ` JOptionPane.showMessageDialog() `
 ### Classe JOptionPane
-* showMessageDialog() ==> mostra uma janela com um texto na tela
-* showInputDialog() ==> mostra uma janela com uma caixa de entrada na tela
+* ` showMessageDialog() ` ==> mostra uma janela com um texto na tela.
+* ` showInputDialog() ` ==> mostra uma janela com uma caixa de entrada na tela.
+* ` parseByte() ` ==> converte String para byte.
+* ` parseShort() ` ==> converte String para short.
+* ` parseInt() ` ==> converte String para int.
+* ` parseLong() ` ==> converte String para long.
+* ` parseFloat() ` ==> converte String para float.
+* ` parseDouble() ` ==> converte String para double.
 ### Classe Scanner
-* next() ==> lê uma palavra (lê tudo que vem antes de um espaço)
-* nextLine() ==> lê uma frase (lê tudo que vem antes de um enter)
-* nextInt() ==> lê uma STRING NUMÉRICA e converte para int
-* nextDouble() ==> lê uma STRING NUMÉRICA e converte para double
+* ` next() ` ==> lê uma palavra (lê tudo que vem antes de um espaço)
+* ` nextLine() ` ==> lê uma frase (lê tudo que vem antes de um enter)
+* ` nextInt() ` ==> lê uma STRING NUMÉRICA e converte para int
+* ` nextDouble() ` ==> lê uma STRING NUMÉRICA e converte para double
 
 ## Estrutura de Decisão (desvio condicional)
 * Toda estrutura de decisão precisa de um teste lógico, ou seja, uma comparação.
@@ -79,24 +93,7 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * Composta: Há duas respostas. Verdadeiro ou falso, dependendo da decisão haverá uma resposta diferente.
 * Aninhada (encadeada): Há várias respostas. Uma decisão pode desencadear várias outras estruturas.
 
-* Bloco do if{}  ==> Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
-* Bloco do else{} ==> Todas as intruções que devem ser executadas caso o teste lógico seja falso.
+* Bloco do ` if(){} ` ==> Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
+* Bloco do ` else{} ` ==> Todas as intruções que devem ser executadas caso o teste lógico seja falso.
 
-## Operadores
-### Aritméticos (matemáticos)
-* "+"
-* "-"
-* "*"
-* "/"
-* "%"
-### Relacionais (comparação)
-* ">" maior que
-* ">=" maior ou igual
-* "<" menor que
-* "<=" menor ou igual
-* "==" igualdade
-* "!=" desigualdade (diferença)
-### Lógicos
-* "&&" E (and)
-* "||" OU (or)
-* "!" NÃO (not)
+## Estrutura de Repetição
