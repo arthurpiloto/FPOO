@@ -103,7 +103,7 @@ As estruturas de repetição são usadas para realizar ações que se repetem de
 * ` for ` 
 
 É mais adequado usar esse laço quando sabemos antecipadamente a quantidade de repetições.
-Sintaxe padrão <strong>obrigatória<strong>:
+Sintaxe padrão <strong>obrigatória</strong>:
 
     for (inicialização ; teste ; atualização) {
         
@@ -115,7 +115,7 @@ Sintaxe padrão <strong>obrigatória<strong>:
 
 Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a cada passo, pele 3.
 
-    for (int i=1 ; i<=13 ; i+3){
+    for (int i=1 ; i<=13 ; i=i+3){
         System.out.print(i);
     }
 
