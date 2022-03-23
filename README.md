@@ -5,20 +5,34 @@
 ## Variáveis
 * Variáveis não podem começar com números ou caracteres especiais, não podem ter acentos e espaços.
 * Em Java, para declarar uma variável ou qualquer coisa que seja composta, é usado o formato Camel Case. Ex: TrocaDeVariavel.
-### Numéricas (tipos primitivos)
-* OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas juntas com a linguagem Java. Cada tipo primitivo tem sua classe associada.
+
+Variável é um espaço reservado (alocado) dentro da memória RAM para gravar uma informação de um tipo preestabelecido.
+
+Há vários tipos de variáveis em Java:
+
+### Numéricos (tipos primitivos)
+OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas juntas com a linguagem Java. Cada tipo primitivo tem sua classe associada.
 * Ordem de Precedência
     * 1º Parênteses
     * 2º Multiplicação e Divisão
     * 3º Soma e Subtração
-* Números inteiros
-    * byte ==> Byte
-    * short ==> Short
-    * int (padrão de variáveis inteiras) ==> Integer
-    * long ==> Long
-* Números decimais
-    * float ==> Float
-    * double ==> Double
+---
+* Inteiros
+
+Em variáveis do tipo inteiro, a diferença entre elas é o espaço reservado para uso. O tamanho da variável influência no desempenho do seu programa, cada tipo ocupa um espaço diferente. O espaço é dividido entre negativos e positivos. Quando o tamanho da variável alcançar o máximo, ele volta para o começo, ou seja, é "formado" como um ciclo.
+* ` byte ` ==> 8 bits 
+* ` short ` ==> 16 bits
+* ` int ` ==> 32 bit
+* ` long ` ==> 64 bits
+---
+* Decimais
+
+Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
+* ` float ` ==> 32 bits
+* ` double ` ==> 64 bits
+---
+* Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas abarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
+
 ### String
 * String literal: "Bom dia", "Olá", "Doutor"...
 * String numérica: "13", "5.4", "-20"...
