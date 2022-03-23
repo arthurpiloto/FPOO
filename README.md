@@ -105,10 +105,18 @@ As estruturas de repetição são usadas para realizar ações que se repetem de
 É mais adequado usar esse laço quando sabemos antecipadamente a quantidade de repetições.
 Sintaxe padrão <strong>obrigatória<strong>:
 
-    for ( ; ; ) {
-
+    for (inicialização ; teste ; atualização) {
+        
     }
----
 
-* ` while ` ==> enquanto
-* ` do while ` ==> faça enquanto
+* A inicialização determina onde se iniciará o laço.
+* O teste determina o fim do laço.
+* A atualização
+    awdawdjawdjawd
+---
+* ` while `
+
+
+
+---
+* ` do while `
