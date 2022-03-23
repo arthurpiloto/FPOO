@@ -98,6 +98,7 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 
 ## Estrutura de Repetição (laços/loop)
 As estruturas de repetição são usadas para realizar ações que se repetem de acordo com uma referência padrão como, por exemplo, uma taboada. Existem três tipos de estruturas de repetição em Java:
+
 ---
 * ` for ` 
 
@@ -105,7 +106,7 @@ As estruturas de repetição são usadas para realizar ações que se repetem de
 Sintaxe padrão <strong>obrigatória<strong>:
 
     for ( ; ; ) {
-        
+
     }
 ---
 
