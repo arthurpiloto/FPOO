@@ -55,6 +55,9 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` && ` ==> E (and)
 * ` || ` ==> OU (or)
 * ` ! ` ==> NÃO (not)
+### Incremento
+* ` ++ ` ==> soma um
+* ` -- ` ==> subtrai um
 
 ## Pacotes
 https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
