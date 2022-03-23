@@ -17,7 +17,7 @@ OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas junt
     * 2º Multiplicação e Divisão
     * 3º Soma e Subtração
 ---
-* Inteiros
+#### Inteiros
 
 Em variáveis do tipo inteiro, a diferença entre elas é o espaço reservado para uso. O tamanho da variável influência no desempenho do seu programa, cada tipo ocupa um espaço diferente. O espaço é dividido entre negativos e positivos. Quando o tamanho da variável alcançar o máximo, ele volta para o começo, ou seja, é "formado" como um ciclo.
 * ` byte ` ==> 8 bits 
@@ -25,7 +25,7 @@ Em variáveis do tipo inteiro, a diferença entre elas é o espaço reservado pa
 * ` int ` ==> 32 bit
 * ` long ` ==> 64 bits
 ---
-* Decimais
+#### Decimais
 
 Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` float ` ==> 32 bits
