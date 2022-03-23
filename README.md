@@ -96,4 +96,18 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * Bloco do ` if(){} ` ==> Todas as instruções que devem ser executadas caso o teste lógico seja verdadeiro.
 * Bloco do ` else{} ` ==> Todas as intruções que devem ser executadas caso o teste lógico seja falso.
 
-## Estrutura de Repetição
+## Estrutura de Repetição (laços/loop)
+As estruturas de repetição são usadas para realizar ações que se repetem de acordo com uma referência padrão como, por exemplo, uma taboada. Existem três tipos de estruturas de repetição em Java:
+---
+* ` for ` 
+
+É mais adequado usar esse laço quando sabemos antecipadamente a quantidade de repetições.
+Sintaxe padrão <strong>obrigatória<strong>:
+
+    for ( ; ; ) {
+        
+    }
+---
+
+* ` while ` ==> enquanto
+* ` do while ` ==> faça enquanto
