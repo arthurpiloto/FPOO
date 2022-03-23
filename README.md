@@ -116,7 +116,7 @@ Sintaxe padrão <strong>obrigatória</strong>:
 Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a cada passo, pele 3.
 
     for (int i=1 ; i<=13 ; i=i+3){
-        System.out.print(i);
+        System.out.println(i);
     }
 
 
