@@ -113,6 +113,7 @@ As estruturas de repetição são usadas para realizar ações que se repetem de
 * ` for ` 
 
 É mais adequado usar esse laço quando sabemos antecipadamente a quantidade de repetições.
+
 Sintaxe padrão <strong>obrigatória</strong>:
 
     for (inicialização ; teste ; atualização) {
@@ -123,7 +124,7 @@ Sintaxe padrão <strong>obrigatória</strong>:
 * O teste determina o fim do laço.
 * A atualização determina o passo do laço.
 
-Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a cada passo, pele 3.
+Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a cada passo, pule 3.
 
     for (int i=1 ; i<=13 ; i=i+3){
         System.out.println(i);
@@ -134,6 +135,22 @@ Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a
 * ` while `
 
 É usado quando não sabemos previamente a quantidade de repetições.
+
+Sintaxe padrão <strong>obrigatória</strong>:
+
+    while (teste) {
+
+    }
+
+* O teste determina o fim do laço
+
+Exemplo: faça uma contagem de 1 a 10.
+
+    int i = 1;
+    while (i <= 10){
+        System.out.println(i);
+        i++;
+    }
 
 ---
 * ` do while `
