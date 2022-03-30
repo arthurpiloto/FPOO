@@ -133,7 +133,7 @@ Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a
 ---
 * ` while `
 
-
+É usado quando não sabemos previamente a quantidade de repetições.
 
 ---
 * ` do while `
