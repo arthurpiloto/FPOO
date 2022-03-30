@@ -44,6 +44,12 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` * ` ==> multiplicação
 * ` / ` ==> divisão
 * ` % ` ==> módulo
+### Atribuição
+* ` += ` ==> n = n + i ==> n += i
+* ` -= ` ==> n = n - i ==> n -= i
+* ` *= ` ==> n = n * i ==> n *= i
+* ` /= ` ==> n = n / i ==> n /= i
+* ` %= ` ==> n = n % i ==> n %= i
 ### Relacionais (comparação)
 * ` > ` ==> maior que
 * ` >= ` ==> maior ou igual
