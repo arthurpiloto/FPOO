@@ -21,7 +21,7 @@ class Fatorial{
 
             if(n >= 0 && n <= 20){
                 for (long i=n-1; i>=2; --i){
-                        fat *= i;
+                    fat *= i;
                 }
                 System.out.println("\n" + n + "! = " + fat);
                 System.exit(0);
