@@ -10,23 +10,33 @@ class Fatorial{
         System.out.print("\n----------------------------------");
 
         while(true){
-            System.out.print("\nInforme um numero positivo (numeros entre 0 e 20): ");
-            long n = sc.nextLong();
-            if(n == 0){
-                System.out.print("\n0! = 1");
-                System.exit(0);
-            }
-
-            long fat = n;
-
-            if(n >= 0 && n <= 20){
-                for (long i=n-1; i>=2; --i){
-                    fat *= i;
+            while(true){
+                System.out.print("\nInforme um numero positivo: ");
+                long n = sc.nextLong();
+                if(n == 0){
+                    System.out.print("\n0! = 1");
+                    break;
                 }
-                System.out.println("\n" + n + "! = " + fat);
+    
+                long fat = n;
+    
+                if(n >= 0){
+                    for (long i=n-1; i>=2; --i){
+                        fat *= i;
+                    }
+                    System.out.println("\n" + n + "! = " + fat);
+                    break;
+                }
+                System.out.print("\nNumero Invalido!");
+            }
+
+            // Código adicionado
+            System.out.print("\nDeseja continuar? [s/n]: ");
+            char option = sc.next().charAt(0);
+
+            if(option != 's'){
                 System.exit(0);
             }
-            System.out.print("\nNumero Invalido!");
         }
     }
 }
