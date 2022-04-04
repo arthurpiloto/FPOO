@@ -7,6 +7,17 @@
 * Em Java, para declarar uma variável ou qualquer coisa que seja composta, é usado o formato Camel Case. Ex: TrocaDeVariavel.
 
 Variável é um espaço reservado (alocado) dentro da memória RAM para gravar uma informação de um tipo preestabelecido. Há vários tipos de variáveis em Java:
+
+### Tipos primitivos
+* ` boolean `
+* ` char `
+* ` byte `
+* ` short `
+* ` int `
+* ` long `
+* ` float `
+* ` double `
+
 ### Numéricos (tipos primitivos)
 OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas juntas com a linguagem Java. Cada tipo primitivo tem sua classe associada.
 * Ordem de Precedência
@@ -29,21 +40,6 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` double ` ==> 64 bits
 ---
 * Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas embarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
-### String
-* String literal: "Bom dia", "Olá", "Doutor"...
-* String numérica: "13", "5.4", "-20"...
-* String alfanumérica: "Área 51", "abc&%", "jovem16"...
-* Códigos especiais (usado apenas dentro de aspas "")
-    * \n ==> pula uma linha
-    * \t ==> faz tabulação (parágrafo)
-### Char
-char ==> caractere (character)
-
-Essa variável tem a função de guardar um caractere. Exemplo:
-
-    char letra = 'S';
-
-Tudo que for char, obrigaoriamente, é escrito entre apóstrofos (aspas simples).
 
 ## Operadores
 ### Aritméticos (matemáticos)
@@ -58,7 +54,7 @@ Tudo que for char, obrigaoriamente, é escrito entre apóstrofos (aspas simples)
 * ` *= ` ==> n = n * i ==> n *= i
 * ` /= ` ==> n = n / i ==> n /= i
 * ` %= ` ==> n = n % i ==> n %= i
-### Relacionais (comparação)
+### Relacionais (comparação somente entre tipos primitivos)
 * ` > ` ==> maior que
 * ` >= ` ==> maior ou igual
 * ` < ` ==> menor que
@@ -77,16 +73,16 @@ Tudo que for char, obrigaoriamente, é escrito entre apóstrofos (aspas simples)
 ## Pacotes
 https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
 
-* Toda classe que está no pacote ``` java.lang ``` são disponíveis por padrão.
+* Toda classe que está no pacote ` java.lang ` são disponíveis por padrão.
 
 ## Classes
 Estrutura padrão: 
 
     nome da classe.método desejado();
 
-* Exemplos:
-    * ` Integer.parseInt() `
-    * ` JOptionPane.showMessageDialog() `
+Exemplos:
+* ` Integer.parseInt() `
+* ` JOptionPane.showMessageDialog() `
 ### Classe JOptionPane
 * ` showMessageDialog() ` ==> mostra uma janela com um texto na tela.
 * ` showInputDialog() ` ==> mostra uma janela com uma caixa de entrada na tela.
@@ -101,6 +97,47 @@ Estrutura padrão:
 * ` nextLine() ` ==> lê uma frase (lê tudo que vem antes de um enter)
 * ` nextInt() ` ==> lê uma STRING NUMÉRICA e converte para int
 * ` nextDouble() ` ==> lê uma STRING NUMÉRICA e converte para double
+### String
+* String literal: "Bom dia", "Olá", "Doutor"...
+* String numérica: "13", "5.4", "-20"...
+* String alfanumérica: "Área 51", "abc&%", "jovem16"...
+* Códigos especiais (usado apenas dentro de aspas "")
+    * \n ==> pula uma linha
+    * \t ==> faz tabulação (parágrafo)
+#### Tipo Char
+char ==> caractere (character)
+
+Essa variável tem a função de guardar um caractere. Exemplo:
+
+    char letra = 'S';
+
+Tudo que for char, obrigatoriamente, é escrito entre apóstrofos (aspas simples).
+
+` charAt(n) ` ==> retorna o caractere da posição específica. Exemplo:
+
+    String nome = "maria";
+    char letra = nome.charAt(2);
+
+A resposta dessa linha de código será "r".
+
+---
+` equals() ` ==> faz a comparação de igualdade entre strings
+
+    String nome = "maria";
+    char letra = nome.charAt(2);
+
+    if (nome.equals("maria")){
+
+    }
+
+Usando o operador lógico ` ! ` (NÃO), o método ` equals() ` pode ser usado para comparação de diferença. Exemplo:
+
+    String nome = "maria";
+    char letra = nome.charAt(2);
+
+    if (!nome.equals("maria")){
+
+    }
 
 ## Estrutura de Decisão (desvio condicional)
 * Toda estrutura de decisão precisa de um teste lógico, ou seja, uma comparação.
