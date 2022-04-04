@@ -36,6 +36,14 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * Códigos especiais (usado apenas dentro de aspas "")
     * \n ==> pula uma linha
     * \t ==> faz tabulação (parágrafo)
+### Char
+char ==> caractere (character)
+
+Essa variável tem a função de guardar um caractere. Exemplo:
+
+    char letra = 'S';
+
+Tudo que for char, obrigaoriamente, é escrito entre apóstrofos (aspas simples).
 
 ## Operadores
 ### Aritméticos (matemáticos)
