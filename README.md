@@ -124,7 +124,6 @@ A resposta dessa linha de código será "r".
 ` equals() ` ==> faz a comparação de igualdade entre strings
 
     String nome = "maria";
-    char letra = nome.charAt(2);
 
     if (nome.equals("maria")){
 
