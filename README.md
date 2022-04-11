@@ -8,6 +8,28 @@
 
 Variável é um espaço reservado (alocado) dentro da memória RAM para gravar uma informação de um tipo preestabelecido. Há vários tipos de variáveis em Java:
 
+### Escopo
+Escopo de variável = visibilidade
+
+    int n = 0;
+    while(n < 10){
+        int x = 100; // Variável local
+        n++;
+    }
+    System.out.print(x)
+
+O seguinte programa dará erro, pois a variável ` x ` só existe enquanto o laço ` while ` está em execução.
+
+    int n = 0;
+    int x = 0; // Variável global
+    while(n < 10){
+        x = 100;
+        n++;
+    }
+    System.out.print(x)
+
+O seguinte programa pode ser executado, pois a variável foi declarada fora do laço ` while `, ou seja, ela pode ser alcançada em qualquer local do programa.
+
 ### Tipos primitivos
 * ` boolean `
 * ` char `
