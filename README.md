@@ -260,20 +260,37 @@ Para criar um método siga os seguintes passos, na exata sequência.
 
 Exemplo 1:
 
-    public static double somar(double n1, double n2){
-        double soma = n1 + n2;
-        return soma;
+    class Calculadora{
+        public static void main(String args[]){
+
+        }
+        public static double somar(double n1, double n2){
+            double soma = n1 + n2;
+            return soma;
+        }
     }
 
 Exemplo 2:
 
-    public static double somar(double n1, double n2){
-        double soma = n1 + n2;
-        return (soma);
+    class Calculadora{
+        public static void main(String args[]){
+
+        }
+        public static double somar(double n1, double n2){
+            double soma = n1 + n2;
+            return (soma);
+        }
     }
 
 Exemplo 3:
 
-    public static double somar(double n1, double n2){
-        return(n1 + n2);
+    class Calculadora{
+        public static void main(String args[]){
+
+        }
+        public static double somar(double n1, double n2){
+            return(n1 + n2);
+        }
     }
+
+O método main é obrigado a existir em qualquer programa feito em Java, senão o mesmo não será capaz de se inicializar.
