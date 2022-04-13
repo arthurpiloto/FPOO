@@ -294,3 +294,16 @@ Exemplo 3:
     }
 
 O método main é obrigado a existir em qualquer programa feito em Java, senão o mesmo não será capaz de se inicializar.
+
+Para chamar um método é necessário seguir os seguintes passos:
+
+    class Calculadora{
+        public static void main(String args[]){
+            double n1 = 10.0;
+            double n2 = 5.5;
+            double resultado = somar(n1, n2);
+        }
+        public static double somar(double n1, double n2){
+            return(n1 + n2);
+        }
+    }
