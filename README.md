@@ -219,4 +219,61 @@ Exemplo: faça uma contagem de 1 a 10.
     }
 
 ---
-* ` do while `
+
+## Métodos
+* Função = Método
+
+Alguns métodos que são muito usados por nós:
+* main() ==> iniciar a execução
+* print() ==> exibe na tela
+* pow() ==> calcula a potência
+* srqt() ==> calcula a raíz quadrada
+
+Percebe-se que os métodos tem características particulares. Todo método executa uma única ação específica, são começados sempre por letra minúscula e acabam com parênteses.
+
+Como criar seus próprios métodos?
+
+    public static void main()
+
+
+Para criar um método siga os seguintes passos, na exata sequência.
+
+1º - modificador de acesso (visibilidade)
+* public (público)
+* private (privado)
+* default (padrão)
+* protected (protegido)
+* static (estático) ==> visibilidade especial, não obrigatório
+
+2º - tipo de retorno
+* void (vazio) ==> não retorna nada
+* int ==> retorna valores inteiros
+* double ==> retorna valores decimais
+* Objeto (classe)
+
+3º - nome do método
+* main()
+
+4º - argumento do método (o que está dentro dos parênteses)
+* primeiro o tipo do argumento.
+* depois o nome da variável que vai guardar o tipo do argumento.
+
+Exemplo 1:
+
+    public static double somar(double n1, double n2){
+        double soma = n1 + n2;
+        return soma;
+    }
+
+Exemplo 2:
+
+    public static double somar(double n1, double n2){
+        double soma = n1 + n2;
+        return (soma);
+    }
+
+Exemplo 3:
+
+    public static double somar(double n1, double n2){
+        return(n1 + n2);
+    }
