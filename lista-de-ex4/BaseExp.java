@@ -17,6 +17,11 @@ class BaseExp{
         }
         
         long contador = base;
+        if(exp == 0){
+            System.out.print(base + "^" + exp + " = 1");
+            System.exit(0);
+        }
+
         for(long i = exp-1; i >= 1; i--){
             contador *= base;
         }
