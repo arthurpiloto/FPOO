@@ -253,6 +253,8 @@ Para criar um método siga os seguintes passos, na exata sequência.
 
 3º - nome do método
 * main()
+* somar()
+* area()
 
 4º - argumento do método (o que está dentro dos parênteses)
 * primeiro o tipo do argumento.
