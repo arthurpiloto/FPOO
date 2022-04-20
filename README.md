@@ -309,3 +309,12 @@ Para chamar um método é necessário seguir os seguintes passos:
             return(n1 + n2);
         }
     }
+
+## Static
+Métodos static só podem se comunicar com outros métodos static.
+
+Enquanto uma variável for static ela existirá enquanto o programa estiver em execução, mas variáveis static só podem ser declaradas em métodos static.
+
+    static double some = n1 + n2;
+
+Em Java o main é <strong>obrigatoriamente</strong> static.
