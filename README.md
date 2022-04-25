@@ -318,3 +318,51 @@ Enquanto uma variável for static ela existirá enquanto o programa estiver em e
     static double some = n1 + n2;
 
 Em Java o main é <strong>obrigatoriamente</strong> static.
+
+## Vetores
+Exemplo:
+
+    double nota1 = 0;
+    double nota2 = 10;
+    double nota3 = 7.5;
+    ...
+    double nota10 = 5.8;
+
+Neste exemplo há a criação de várias linhas de código que tem a mesma função, guardar uma nota. Os vetores são capazes de fazer este trabalho sem essa repetição, vetores são capazes de guardar vários valores.
+
+A criação de um vetor é semelhante a de uma variável e pode ser feito de duas maneiras:
+
+    int[] n;
+
+    ou
+
+    int n[];
+
+    ou
+
+    double notas[] = new double[10];
+
+Um vetor é um conjunto de variáveis então é necessário declarar quantos elementos vão se encontrar dentro dele:
+
+    int n[] = {5, 3, 7};
+
+De acordo com a quantidade de elementos no vetor você consegue atribuir o valor de acordo com a posição(índice) que o elemento se encontra na memória RAM. A contagem começa no 0.
+
+    int n[] = {5, 3, 7};
+    int num = n[2]
+
+Neste exemplo a variável ` num ` vai receber o valor 7, que se encontra na 2ª posição do vetor.
+
+Para atribuir um novo valor a uma posição faça:
+
+    int n[] = {5, 3, 7};
+    n[1] = 33;
+
+Neste exemplo o valor 33 substituirá o valor 3 que se encontra na 1ª posição.
+
+Para aumentar a quantidade de elementos ou o tanto de índices presentes no vetor faça:
+
+    double temp[] = {8, 5, 7, 9, 6}
+    double temp[] = new double[24]
+
+Antes o vetor ` temp[] ` tinha apenas 5 índices, mas depois passou a ter 24.
