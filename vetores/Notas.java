@@ -5,7 +5,7 @@ class Notas{
         double notas[] = new double[5];
 
         for(int i = 0; i < notas.length; i++){
-            System.out.println((i+1) + "ª nota: ");
+            System.out.print((i+1) + "ª nota: ");
             notas[i] = ler.nextDouble();
         }
 
