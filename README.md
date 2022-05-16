@@ -2,7 +2,24 @@
 * https://replit.com/ ==> plataforma de programação em navegadores.
 * Clean code ==> código limpo, técnica levada ao pé da letra em Java.
 
+## POO
+---
+"Um objeto pode é a instância de uma classe"
+
+Um objeto é algo que possue:
+- Características
+    - Propriedades
+    - Atributo
+    - Campo
+- Funcionalidade
+    - Métodos
+
+## Classe
+---
+
+
 ## Variáveis
+---
 * Variáveis não podem começar com números ou caracteres especiais, não podem ter acentos e espaços.
 * Em Java, para declarar uma variável ou qualquer coisa que seja composta, é usado o formato Camel Case. Ex: TrocaDeVariavel.
 
@@ -46,7 +63,7 @@ OBS: Todas as variáveis numéricas são primitivas, ou seja, foram criadas junt
     * 1º Parênteses
     * 2º Multiplicação e Divisão
     * 3º Soma e Subtração
----
+
 #### Inteiros
 
 Em variáveis do tipo inteiro, a diferença entre elas é o espaço reservado para uso. O tamanho da variável influência no desempenho do seu programa, cada tipo ocupa um espaço diferente. O espaço é dividido entre negativos e positivos. Quando o tamanho da variável alcançar o máximo, ele volta para o começo, ou seja, é "formado" como um ciclo.
@@ -54,16 +71,17 @@ Em variáveis do tipo inteiro, a diferença entre elas é o espaço reservado pa
 * ` short ` ==> 16 bits
 * ` int ` ==> 32 bit
 * ` long ` ==> 64 bits
----
+
 #### Decimais
 
 Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 * ` float ` ==> 32 bits
 * ` double ` ==> 64 bits
----
+
 * Os programadores padronizaram tipos de variáveis numéricas. Int para inteiros e double para decimais, mas quando se trata de sistemas embarcados (possuem pouco espaço) a escolha deve ser feita com cuidado entre os tipos.
 
 ## Operadores
+---
 ### Aritméticos (matemáticos)
 * ` + ` ==> soma
 * ` - ` ==> subtração
@@ -92,12 +110,9 @@ Em variáveis do tipo decimal seguem as mesmas instruções do tipo inteiro.
 ### Decremento
 * ` -- ` ==> subtrair um
 
-## Pacotes
-https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
-
-* Toda classe que está no pacote ` java.lang ` são disponíveis por padrão.
 
 ## Classes
+---
 Estrutura padrão: 
 
     nome da classe.método desejado();
@@ -105,6 +120,12 @@ Estrutura padrão:
 Exemplos:
 * ` Integer.parseInt() `
 * ` JOptionPane.showMessageDialog() `
+
+### Pacotes
+https://arquivo.devmedia.com.br/REVISTAS/easyjava/imagens/28/1/tab1.png
+
+* Toda classe que está no pacote ` java.lang ` são disponíveis por padrão.
+
 ### Classe JOptionPane
 * ` showMessageDialog() ` ==> mostra uma janela com um texto na tela.
 * ` showInputDialog() ` ==> mostra uma janela com uma caixa de entrada na tela.
@@ -161,6 +182,7 @@ Usando o operador lógico ` ! ` (NÃO), o método ` equals() ` pode ser usado pa
     }
 
 ## Estrutura de Decisão (desvio condicional)
+---
 * Toda estrutura de decisão precisa de um teste lógico, ou seja, uma comparação.
 
 Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou não, abrir ou fechar, chorar ou rir, será uma escolha para uma determinada ação.
@@ -173,9 +195,9 @@ Uma estrutura de decisão nada mais é do que uma tomada de decisão. Sim ou nã
 * Bloco do ` else{} ` ==> Todas as intruções que devem ser executadas caso o teste lógico seja falso.
 
 ## Estrutura de Repetição (laços/loop)
+---
 As estruturas de repetição são usadas para realizar ações que se repetem de acordo com uma referência padrão como, por exemplo, uma taboada. Existem três tipos de estruturas de repetição em Java:
 
----
 * ` for ` 
 
 É mais adequado usar esse laço quando sabemos antecipadamente a quantidade de repetições.
@@ -197,7 +219,6 @@ Exemplo: faça uma contagem que começa no número 1, termina no número 13 e, a
     }
 
 
----
 * ` while `
 
 É usado quando não sabemos previamente a quantidade de repetições.
@@ -218,9 +239,8 @@ Exemplo: faça uma contagem de 1 a 10.
         i++;
     }
 
----
-
 ## Métodos
+---
 * Função = Método
 
 Alguns métodos que são muito usados por nós:
@@ -310,7 +330,7 @@ Para chamar um método é necessário seguir os seguintes passos:
         }
     }
 
-## Static
+### Static
 Métodos static só podem se comunicar com outros métodos static.
 
 Enquanto uma variável for static ela existirá enquanto o programa estiver em execução, mas variáveis static só podem ser declaradas em métodos static.
@@ -320,6 +340,7 @@ Enquanto uma variável for static ela existirá enquanto o programa estiver em e
 Em Java o main é <strong>obrigatoriamente</strong> static.
 
 ## Vetores
+---
 Exemplo:
 
     double nota1 = 0;
