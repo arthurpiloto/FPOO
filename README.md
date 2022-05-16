@@ -16,7 +16,9 @@ Um objeto é algo que possue:
 
 ## Classe
 ---
+Uma classe pode ser considerada uma abstração (observação aprofundada) de um objeto.
 
+Classes podem ser reutilizadas
 
 ## Variáveis
 ---
