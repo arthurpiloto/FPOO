@@ -4,7 +4,7 @@
 
 ## POO
 ---
-"Um objeto pode é a instância de uma classe"
+"Um objeto é a instância de uma classe"
 
 Um objeto é algo que possue:
 - Características
