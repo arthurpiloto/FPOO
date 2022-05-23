@@ -14,9 +14,14 @@ Um objeto é algo que possue:
 - Funcionalidade
     - Métodos
 
+Orientação a objeto pode ser representada pela estrutura de um corpo:
+- Classe ==> estrutura
+- Atributos ==> características
+- Métodos ==> ações
+
 ## Classe
 ---
-Uma classe pode ser considerada uma abstração (observação aprofundada) de um objeto.
+Uma classe pode ser considerada uma abstração (observação aprofundada) de um objeto. Um molde para criar um objeto.
 
 Classes podem ser reutilizadas
 
